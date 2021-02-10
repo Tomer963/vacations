@@ -3,7 +3,7 @@ import styles from './LoginPage.module.css';
 
 export default function LoginPage() {
   const googleLogin = () => {
-    window.location.href = 'http://localhost:5000/auth/google';
+    window.location.href = 'https://vacations--backend.herokuapp.com/auth/google';
   };
 
   return (

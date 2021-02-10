@@ -9,7 +9,7 @@ export default function NavBar() {
 
   const logout = () => {
     axios
-      .get('http://localhost:5000/auth/logout', {
+      .get('https://vacations--backend.herokuapp.com/auth/logout', {
         withCredentials: true,
       })
       .then((res) => {

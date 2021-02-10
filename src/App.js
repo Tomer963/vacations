@@ -14,7 +14,7 @@ function App() {
       <NavBar />
       <Switch>
         <Route path='/' exact component={Homepage} />
-        {userObject ? null : <Route path='/login' component={LoginPage} />}
+        {userObject ? <h1>tomer the king</h1> : <Route path='/login' component={LoginPage} />}
       </Switch>
     </BrowserRouter>
   );

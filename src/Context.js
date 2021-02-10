@@ -7,7 +7,7 @@ export default function Context(props) {
 
   useEffect(() => {
     axios
-      .get('http://localhost:5000/getuser', { withCredentials: true })
+      .get('https://vacations--backend.herokuapp.com/getuser', { withCredentials: true })
       .then((res) => {
         console.log(res);
         if (res.data) {
